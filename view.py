@@ -4,6 +4,8 @@ from PIL import ImageTk, Image
 root = Tk()
 root.title('Calculator')
 root.geometry('470x630')
+root.minsize(height=630, width=470)
+root.maxsize(height=630, width=470)
 
 label=Label(text='Calculator',font='Times 18 bold')
 label.grid(row=0,column=0,columnspan=4, pady=5)
